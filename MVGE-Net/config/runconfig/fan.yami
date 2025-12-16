@@ -1,0 +1,17 @@
+# train parameters setting default
+optimization: Adam
+learning_rate: 0.001
+epoch: 200
+dataset: fan
+num_steps: 6
+lr: 1e-4
+weight_decay: 1e-6
+epoches: 100
+max_patience: 100
+log_every: 5
+save_path: ./models/fan/testmodel
+#更改
+datasetname: fan
+model_dir: ./models/fan/
+log_dir: ./models/fan/k3.log
+processed_data_path: ../data_processing/dataset/fan/dataset/k3_dataset.bin

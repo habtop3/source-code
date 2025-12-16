@@ -1,0 +1,16 @@
+# train parameters setting default
+optimization: Adam
+epoch: 200
+dataset: fan
+num_steps: 6
+lr: 1e-4
+weight_decay: 1e-6
+epoches: 100
+max_patience: 100
+log_every: 5
+save_path: ./models/ffmpeg/testmodel
+#更改
+datasetname: fan
+model_dir: ./models/ffmpeg/
+log_dir: ./models/ffmpeg/k3_W1e6_R1e4_test3_1.log
+processed_data_path: ../data_processing/dataset/ffmpeg/dataset/k2.bin

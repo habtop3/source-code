@@ -1,0 +1,20 @@
+# train parameters setting default
+optimization: Adam
+learning_rate: 0.001
+batch_size: 64
+epoch: 200
+node_tag: node_features
+graph_tag: graph
+label_tag: targets
+dataset: fan
+feature_size: 100
+graph_embed_size: 100
+num_steps: 6
+#更改
+model_dir: ./models/fan/
+log_dir: ./models/fan/test.log
+input_dir: ../data_processing/dataset/fan/cpg/orign_cpg/
+processed_data_path: ../data_processing/dataset/fan/dataset/k1.bin
+train_src: ../data_processing/dataset/fan/cpg/orign_cpg/fan-train-v0.json
+valid_src: ../data_processing/dataset/fan/cpg/orign_cpg/fan-valid-v0.json
+test_src: ../data_processing/dataset/fan/cpg/orign_cpg/fan-test-v0.json

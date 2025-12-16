@@ -1,0 +1,16 @@
+# train parameters setting default
+optimization: Adam
+learning_rate: 0.001
+dataset: reveal
+num_steps: 6
+lr: 1e-4
+weight_decay: 1e-6
+epoches: 100
+max_patience: 100
+log_every: 5
+save_path: ./models/reveal/test1model
+#更改
+datasetname: fan
+model_dir: ./models/reveal/
+log_dir: ./models/reveal/k8.log
+processed_data_path: ../data_processing/dataset/reveal/dataset/k8.bin
