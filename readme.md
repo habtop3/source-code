@@ -1,5 +1,5 @@
 ## Dataset
-To investigate the effectiveness of AMPLE, we adopt three vulnerability datasets from these paper: 
+To investigate the effectiveness of MVGE-Net, we adopt three vulnerability datasets from these paper: 
 * Fan et al. [1]: <https://drive.google.com/file/d/1-0VhnHBp9IGh90s2wCNjeCMuy70HPl8X/view?usp=sharing>
 * Reveal [2]: https://drive.google.com/drive/folders/1KuIYgFcvWUXheDhT--cBALsfy1I4utOyF
 * FFMPeg+Qemu [3]: https://drive.google.com/file/d/1x6hoF7G-tSYxg8AFybggypLZgMGDNHfF
@@ -13,7 +13,7 @@ Our code is based on Python3 (>= 3.7). There are a few dependencies to run the c
 * pandas  (==1.4.1)
 * tqdm
 
-**Default settings in AMPLE**:
+**Default settings in MVGE-Net**:
 * Training configs: 
     * batch_size = 64, lr = 0.0001, epoch = 100, patience = 20
     * opt ='RAdam', weight_decay=1e-6
@@ -22,7 +22,7 @@ Our code is based on Python3 (>= 3.7). There are a few dependencies to run the c
 
 
 ## Attention weight
-We provide all the attention weights learned by our proposed model AMPLE for the test samples. Each dataset corresponds to a json file under ```attention weight\``` folder.
+We provide all the attention weights learned by our proposed model MVGE-Net for the test sMVGE-Nets. Each dataset corresponds to a json file under ```attention weight\``` folder.
 
 
 
